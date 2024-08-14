@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HTML Tutorial #7</title>
+
+
+        <!--Tutorial #7 - Tables-->
+
+        <head>
+            <title>Tables</title>
+
+            <style>
+                table, tr, td, th{
+
+                    border-width: 1px;
+                    border-color: blue;
+                    border-style: solid;
+                    text-align: center;
+                }
+
+                caption{
+
+                    text-align: left;
+                    caption-side: bottom;
+                }
+
+            </style>
+        </head>
+
+        <h2>Tables</h2>
+
+        <body>
+
+            <table>
+                <caption>1st Sem Grades</caption>
+                <tr>
+                    <th>Letters</th>
+                    <th>Numbers</th>
+                </tr>
+
+                <tr>
+                    <td>A</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>B</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>C</td> 
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>D</td> 
+                    <td>4</td>
+                </tr>
+            </table>
+
+        </body> 
+
+
+        <head>
+            <title>Tables</title>
+
+        <!--  <style>
+                table, tr, td, th{
+
+                    border-width: 1px;
+                    border-color: blue;
+                    border-style: solid;
+                }
+            </style> -->
+        </head>
+
+        <head>
+            <title>Tables</title>
+
+            <style>
+                table, tr, td, th{
+
+                    border-width: 1px;
+                    border-color: blue;
+                    border-style: solid;
+                
+                }
+
+                caption{
+
+                    text-align: right;
+                    caption-side: top;
+                }
+
+                thead{
+
+                    background-color: pink;
+                    text-align: right;
+
+                }
+
+            </style>
+        </head>
+
+        <h2>Tables</h2>
+
+        <body>
+
+            <table>
+
+                <caption>2nd Sem Grades</caption>
+                
+                <thead>
+                    <tr>
+                        <th rowspan="2">Names</th>
+                        <th colspan="2">Subjects</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>C++</td>
+                        <td>Java</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ian</td>
+                        <td>100</td>
+                        <td>99</td>
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    <tr>
+                        <td>Rex</td>
+                        <td>98</td>
+                        <td>87</td>
+                    </tr>
+
+                    <tr>
+                        <td>Exanes</td>
+                        <td>90</td>
+                        <td>91</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Row Demo</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </body> 
+
+</html>

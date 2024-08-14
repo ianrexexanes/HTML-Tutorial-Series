@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Tutorial #10</title>
+    </head>
+
+    <body>
+
+        <!--Tutorial #10 - Non-Semantic & Semantic Elements-->
+
+        <h1>Semantic &amp; Non Semantic Elements</h1>
+        
+            <h2><ins>Non-Semantic Elements</ins></h2>
+
+                <h3>These elements does not clearly define what their "content" is about.</h3>
+                <p>examples are: <b>span, i, b, div</b></p>
+
+                    <h2>Class and ID Attribute</h2>
+                    
+                    <ul>
+                        <li>used to <strong>identify elements</strong></li>
+                        <li>can be <strong>applied</strong> to <strong>any elements</strong></li>
+                        <li>used to <strong>label non semantic elements</strong></li>
+                        <li>used in <strong>styling</strong> or <strong>modifying elements</strong> </li>
+                    </ul>
+
+                        <h3>ID</h3>
+                        <p>used to identify a single element in our HTML Document, this can be used to change it design or modify and retrieve the element's values.</p>
+
+                            <h4>examples:see code</h4>
+
+                            <div id="main-container">
+                                <p>Hello World</p>
+                            </div>
+
+                        <p>PS. Same IDs should no be used on multiple elements</p>
+
+                        <h3>Class</h3>
+                        <p>used to identify multiple elements in our HTML Document, particularly repetitive elements that may also be used to change its design or modify and retrieve the element's values.</p>
+
+                            <h4>examples:see code</h4>
+
+                            <div class="comment">
+                                <p>This is comment 1</p>
+                            </div>
+
+                            <div class="comment">
+                                <p>This is comment 2</p>
+                            </div>
+                        
+                            <p>PS. Classes can be used on multiple elements</p>
+                    
+                    <h2>Actual Demo</h2>
+
+                        <h3>Demo 1: See <Code></Code></h3>
+
+                            <div id="nav-bar 1">
+                                <ul>
+                                    <li><a href="home.html" target="_blank">Home</a></li>
+                                    <li><a href="about.html" target="_blank">About</a></li>
+                                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <div id="nav-bar 2">
+                                <a href="home.html" target="_blank">Home</a> |
+                                <a href="about.html" target="_blank">About</a> |
+                                <a href="contact.html"  target="_blank">Contact</a>
+                            </div>
+
+                            <div id="header">
+                                <h1>Ian Rex <span class="surname">Exanes</span></h1>
+                                <p>An aspiring Web Developer. Soon to be a full stack web developer</p>
+                            </div>
+
+                            <div id="main-section">
+                                <div class="section">
+                                    <h2>Learning Front End Development is fun and interesting</h2>
+                                    <p>Currently learning HTML and CSS</p>
+                                </div>
+
+                                <div class="section">
+                                    <h2>Learning Back End Development is I am looking forward to</h2>
+                                    <p>Currently learning PHP and My SQL</p>
+                                </div>
+                            </div>
+
+                            <div id="footer">
+                                <p>&copy; &reg; Ian Rex Exanes</p>
+                            </div>
+
+            <h2><ins>Semantic Elements</ins></h2>
+                            
+                <h3>Elements that clearly describes what it contains, to both the developer and the browser. These are elements which have specific tag names</h3>
+                <h3>It does not change any styling on the actual document. It is used to structure the website in a cleaner way.</h3>
+                <p>examples are: nav, header, footer, section, article and aside</p>
+
+                <h2>Actual Demo</h2>
+
+                <h3>Demo 2: See <Code></Code></h3>
+
+                    <nav>
+                        <ul>
+                            <li><a href="home.html" target="_blank">Home</a></li>
+                            <li><a href="about.html" target="_blank">About</a></li>
+                            <li><a href="contact.html" target="_blank">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <a href="home.html" target="_blank">Home</a> |
+                        <a href="about.html" target="_blank">About</a> |
+                        <a href="contact.html"  target="_blank">Contact</a>
+                    </nav>
+
+                    <header>
+                        <h1>Ian Rex <span class="surname">Exanes</span></h1>
+                        <p>An aspiring Web Developer. Soon to be a full stack web developer</p>
+                    </header>
+         
+                    <section>
+                        <h2>Learning Front End Development is fun and interesting</h2>
+                        <p>Currently learning HTML and CSS</p>
+                    </section>
+
+                    <section>
+                        <h2>Learning Back End Development is I am looking forward to</h2>
+                        <p>Currently learning PHP and My SQL</p>
+                    </section>
+
+                    <footer>
+                        <p>&copy; &reg; Ian Rex Exanes</p>
+                    </footer>
+
+
+        <h2>*You can use Non-Semantic because this is used as Industry Standards</h2>     
+        
+    </body>
+
+</html>

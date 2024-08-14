@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="\img\fb.png ">
+        <link rel="stylesheet" href="Tutorial 11-style">
+          <!--
+        <script src='Tutorial 11-function.js'></script>
+        <script>
+            alert("Hello World")
+        </script>
+        -->
+        <title>HTML Tutorial #11</title>
+    </head>
+
+    <body>
+
+        <!--Tutorial #11 - Other HTML tags-->
+
+        <h1>Other HTML Tags</h1>
+
+            <h2>&lt;meta&gt; Tag</h2>
+            <p>Defines metadata about the HTML file, it should always be placed in the &lt;head&gt; tag</p>
+            
+            <p>The &lt;meta&gt; tag does not display anything in the webpage but is essential in giving instructions on how the webpage is displayed or searched in search engines</p>
+
+            <p><strong>examples:see code</strong></p>
+
+                <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="description" content="Free Programming Tutorials">
+                        <meta name="keywords" content="SDPT Solutions"> <!--Important for SEO-->
+                        <meta name="author" content="SDPT David"> <!--Important for SEO-->
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Important for SEO-->
+                    </head>
+                </html>
+
+            <h2>&lt;link&gt; Tag</h2>
+            <p>Defines a <strong><ins>"link"</ins></strong> between the HTML file to an external source file, such as favicons (icon tab image) and stylesheets (css)</p>
+            
+            <p>It is normally used in the &lt;head&gt; tag to associate an icon or a CSS file to the HTML document</p>
+
+            <p><strong>examples:see code</strong></p>
+
+                    <html>
+                        <head>
+                            <link rel="stylesheet" href="Tutorial 11-style.css"> <!--"rel" is for "relationship"-->
+                            <link rel="icon" href="favicon.ico">
+                        </head>
+                        <p>Hello World</p>
+                    </html>
+
+            <h2>&lt;script&gt; Tag</h2>
+            <p>It is used to include a client-side script which is JavaScript.</p>
+            
+            <p>It can be used by either including a JavaScript code inside the tag or using an external file using the "src" attribute</p>
+
+            <p><strong>examples:see code</strong></p>
+             
+                    <!--
+                    <script>
+                        alert("Hello World")
+                    </script>
+                    <script src='Tutorial 11-function.js'></script>
+                    -->
+
+        <h2>&lt;iframe&gt; Tag</h2>
+            <p>used to embed an HTML Document within an HTML document</p>
+            
+            <p>it is often used to included buttons or content from other websites</p>
+
+            <p><strong>examples:see code</strong></p>
+
+                    <html>
+                        <body>
+                            <iframe src="https://www.wikipedia.org/" title="wikipedia" width="800" height="600"></iframe>
+
+                            <br><br>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bvftn2VpyhU?si=ItMn-CFrs9JAs0pm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                            
+                        </body>
+                    </html>
+
+        h2>&lt;progress&gt; Tag</h2>
+            <p>used to to display a progress bar. It is commonly used to display task progress</p>
+            
+            <p>label tags can also be used for the progress tags fore accessibility</p>
+
+            <p><strong>examples:see code</strong></p>
+        
+                    <html>
+                        <body>
+                            <progress value="75" max="100">
+                        </body>
+                    </html>
+        
+    </body>
+
+</html>

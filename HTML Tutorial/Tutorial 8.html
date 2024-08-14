@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HTML Tutorial #8</title>
+</head>
+
+        <!--Tutorial #8 - Forms-->
+
+        <h2>Forms</h2>
+
+        <form target="_blank">
+
+            <input type="text"  placeholder="Your Name">
+            <input type="text"  placeholder="Your Name" disabled><br>
+
+            <input type="text"  name=name value="Your Name">
+            <input type="text"  value="Your Name" readonly><br>
+
+            <input type="text"  required>
+            <input type="submit"><br>
+
+        </form>
+
+        <form target="_blank">
+        
+            <input type="text"  minlength="3" required>
+            <input type="submit"><br>
+        
+        </form>
+
+        <form target="_blank">
+        
+            <input type="text"  maxlength="3" required>
+            <input type="submit"><br><br>
+        
+        </form>
+
+        <form target="_blank">
+
+            <input type="text" required>
+            <input type="email" required placeholder="email address" size="30">
+            <input type="submit"><br><br>
+        
+        </form>
+
+        <form target="_blank">
+
+            <input type="email" placeholder="type your  email address"><br>
+            <input type="password" required placeholder="type your password">
+            <input type="submit"><br><br>
+        
+        </form>
+
+        <form target="_blank">
+
+            <input type="number" placeholder="Age" step="5">
+            <input type="submit"><br><br>
+        
+        </form>
+
+        <form target="_blank">
+
+            <input type="tel" placeholder="telephone"><br>
+            <input type="url" placeholder="url"><br>
+            <input type="search" placeholder="search"><br>
+            <input type="submit"><br><br>
+
+        </form>
+
+        <form>
+
+            <input type="date"><br>
+            <input type="datetime-local"/><br>
+            <input type="month"><br>
+            <input type="week"><br>
+            <input type="time"><br>
+            <input type="submit"><br><br>
+
+        </form>
+
+        <form>
+            
+            <h2>Year-Month-Day</h2>
+            <input type="date" value="2001-12-31" min="2022-12-31" max="2023-12-31"><br><br>
+            
+        <form>
+
+            <input type="file">
+            <input type="submit"><br><br>
+
+        </form>
+
+        <form>
+            <!--Mime Types-->
+            <input type="file" accept="image/png,application/pdf">
+            <input type="submit"><br><br>
+
+        </form>
+
+        <form>
+            <!--all images-->
+            <input type="file" accept="image/*">
+            <input type="submit"><br><br>
+
+        </form>
+
+        <form>
+            <!--multiple files-->
+            <input type="file" accept="image/*" multiple>
+            <input type="submit"><br><br>
+
+        </form>
+
+        <form target="_blank">
+
+            <input id="apple" type="checkbox" checked>
+            <label for="apple">Apple</label>
+
+            <br><br>
+
+            <input type="checkbox" id="banana" checked>
+            <label for="banana">Banana</label>
+
+            <br><br>
+
+            <input type="submit">
+
+            <br><br>
+        </form>
+
+        </form>
+
+        <form target="_blank">
+
+            <!--Put "Name" for Grouping-->
+            <!--Put "id" to reference label tag-->
+            <input type="radio" name="color" id="blue">
+            <label for="blue">Blue</label>
+            
+            <br><br>
+
+            <input type="radio" id="red" name="color">
+            <label for="red">Red</label>
+
+            <br><br>
+
+            <input type="radio" id="yellow" name="color">
+            <label for="yellow">Yellow</label>
+
+            <input type="submit">
+
+            <br><br>
+
+        </form>
+
+        <form target="_blank">
+
+            <input type="button" value="Click Me"/>
+            <input type="submit" value="Click Me Too">
+
+            <br><br>
+
+        </form>
+
+        <form target="_blank">
+
+            <input type="text">
+            <input type="email">
+            <input type="password">
+            <input type="reset">
+
+            <br><br>
+
+        </form>
+
+        <form>
+
+            <input type="range" step="10" min="10" max="100" id="volume" value="50">
+            <label for="volume">Volume</label>
+
+        </form>
+
+        <form>
+
+            <input type="color" value="#000000">
+            <input type="submit">
+
+            <br><br>
+        </form>
+
+        <form>
+
+            <input type>
+            <input type="hidden">
+            <input type="submit">
+
+            <br><br>
+        </form>
+
+        <form>
+        <textarea cols="30 " rows="20" maxlength="50">This is a default value</textarea>
+        <br>
+        <input type="submit">
+
+        <br><br>
+        </form>
+
+        <form>
+        
+            <select name="fruits">
+
+                <option value="apple">Apple</option>
+                <option value="apple">Banana</option>
+                <option value="apple">Watermelon</option>
+                <option value="apple">Melon</option>
+                <option value="apple">Avocado</option>
+                <option value="apple">Grapes</option>
+            
+            </select>
+            
+            <br>
+
+            <input type="submit">
+
+        </form>
+
+        <br>
+
+        <form>
+        
+            <select name="fruits" multiple>
+
+                <option value="apple">Apple</option>
+                <option value="apple">Banana</option>
+                <option value="apple">Watermelon</option>
+                <option value="apple">Melon</option>
+                <option value="apple">Avocado</option>
+                <option value="apple">Grapes</option>
+            
+            </select>
+            
+            <br>
+
+            <input type="submit">
+
+            <br><br>
+
+        </form>
+
+        <form>
+            <label for="healthy foods"></label>
+            <select name="healthy foods" id="healthy foods">
+                <optgroup label="Fruits">
+                    <option value="Melon">Melon</option>
+                    <option value="Watermelon">Watermelon</option>
+                <optgroup label="Vegetable">
+                    <option value="Carrots">Carrots</option>
+                </optgroup>
+            </select>
+        </form>
+
+        <br><br>
+        
+        <form>
+
+            <label>Healthy Foods</label>
+            <br>
+            <select id="Fruits" name="Fruits">
+                <optgroup label="Fruits"></optgroup>
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Melon">Melon</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Grapes">Watermelon</option>
+            </select>
+            <br>    
+            <select id="Vegetables" name="Vegetables">
+                <optgroup label="Vegetables"></optgroup>
+                    <option value="Carrots">Watermelon</option>
+                    <option value="Cabbage">Melon</option>
+                    <option value="Amapalaya">Banana</option>
+                    <option value="Upo">Watermelon</option> 
+            </select
+
+</html>
